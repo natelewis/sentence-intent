@@ -15,7 +15,7 @@ $ npm install sentence-intent --save
 ```javascript
 const Sentence = require('sentence-intent');
 
-const intent = new Intent('Can you turn up the music?');
+const intent = new Sentence('Can you turn up the music?');
 
 console.log('intent: ' + intent.getIntent());
 console.log('context: ' + intent.getContext());
