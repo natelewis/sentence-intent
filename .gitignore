@@ -1,0 +1,11 @@
+node_modules
+gactions
+creds.data
+*.DS_Store
+action.json
+config.json
+hue.json
+coverage
+*.log
+.nyc_output
+package-lock.json

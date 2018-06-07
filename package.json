@@ -1,0 +1,29 @@
+{
+  "name": "sentence-intent",
+  "version": "0.0.1",
+  "description": "Extract the intent and potential context of a sentence",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha \"tests/test-*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natelewis/sentence-intent.git"
+  },
+  "author": "Nate Lewis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/natelewis/sentence-intent/issues"
+  },
+  "homepage": "https://github.com/natelewis/sentence-intent#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "pos": "^0.4.2"
+  }
+}
