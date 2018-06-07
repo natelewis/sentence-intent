@@ -43,7 +43,6 @@ const sentences = [
 describe('Sentence.get()', function() {
   for (let i = 0; i < sentences.length; i++) {
     const data = sentences[i];
-    console.log(data);
     it(data.s + ' ( i: ' + data.i + ' c: ' + data.c + ' )', () => {
       assert.deepEqual(new Sentence(data.s).get(),
         {intent: data.i, context: data.c}
