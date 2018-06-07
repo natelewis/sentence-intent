@@ -21,6 +21,8 @@
   "homepage": "https://github.com/natelewis/sentence-intent#readme",
   "devDependencies": {
     "assert": "^1.4.1",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
     "mocha": "^5.2.0"
   },
   "dependencies": {
