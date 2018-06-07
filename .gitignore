@@ -1,10 +1,6 @@
 node_modules
-gactions
-creds.data
 *.DS_Store
-action.json
-config.json
-hue.json
+test.js
 coverage
 *.log
 .nyc_output
