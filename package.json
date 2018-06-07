@@ -1,6 +1,6 @@
 {
   "name": "sentence-intent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extract the intent and potential context of a sentence",
   "main": "index.js",
   "directories": {

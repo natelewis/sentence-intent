@@ -1,3 +1,7 @@
+# 0.0.3 -
+
+- Return undefined context, if the sentence has no intent
+
 # 0.0.2 - 2018-06-07
 
 - Code cleanup
